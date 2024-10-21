@@ -29,4 +29,8 @@ Why gh-pages?
 Don't forget!
   Commit to master branch, push, then run deploy
 
-For custom url, make sure to delete repository name from "homepage" property
+Custom URL
+  For custom url, make sure to delete repository name from "homepage" property
+  Using deploy will reset custom url in GitHub pages to non-custom. To retain this, add "add-domain" script and call in deploy script:
+    "add-domain": "echo \myDomain.org\ > build/CNAME",
+    "deploy": "npm run add-domain && gh-pages -d build",
