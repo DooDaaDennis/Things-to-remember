@@ -15,7 +15,7 @@ GH:
   Enable GitHub Pages with master branch
 
 Local:
-  add   "homepage":"'url of github page'"                                         //Add homepage key with GH page url to package.json 
+  add   "homepage":"'url of github page/repository name'"                                         //Add homepage key with GH page url to package.json 
   commit + push changes
   npm run deploy              
 
@@ -28,3 +28,5 @@ Why gh-pages?
 
 Don't forget!
   Commit to master branch, push, then run deploy
+
+For custom url, make sure to delete repository name from "homepage" property
