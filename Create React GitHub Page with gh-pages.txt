@@ -1,0 +1,30 @@
+GH:
+  Create public repository
+
+Local:
+  npx create-react-app "name of repository"                                       //Create react folders
+  npm start                                                                       //Check page load
+  npm i -D gh-pages                                                               //Install gh-pages
+  add   "predeploy":"npm run build,                                               //Add scripts to package.json file
+        "deploy": "gh-pages -d build"
+  git remote add origin https:github.com/doodaadennis/"repository name".git       //Add remote/connect to repository
+  commit changes
+  git push -u origin master                                                       //push to remote server and track master to master. May need to rename
+
+GH:
+  Enable GitHub Pages with master branch
+
+Local:
+  add   "homepage":"'url of github page'"                                         //Add homepage key with GH page url to package.json 
+  commit + push changes
+  npm run deploy              
+
+GH:
+  change branch source for GitHub Pages to gh-pages branch
+
+Why gh-pages?
+  "npm run build" creates hosting files in 'build' folder. GitHub Pages requires files to be in root of repository.
+  gh-pages takes contents of build directory (or any directory supplied as argument with -d option in deploy script, creates new branch called gh-pages and pushes all changes to this branch.
+
+Don't forget!
+  Commit to master branch, push, then run deploy
