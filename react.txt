@@ -1,0 +1,15 @@
+Components return html snippets. Start function with capital letter
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<FUNCTION/>)
+
+
+Extensions:
+
+VS Code ES7+ React/Redux/React-Native/JS snippets
+
+Emmet: javascript: javascriptreact
