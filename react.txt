@@ -10,6 +10,8 @@ root.render(<FUNCTION/>)
 
 Extensions:
 
-VS Code ES7+ React/Redux/React-Native/JS snippets
+VS Code ES7+ React/Redux/React-Native/JS snippets:
+  rafce - create arrow function component
+  rfce - create function component
 
 Emmet: javascript: javascriptreact
