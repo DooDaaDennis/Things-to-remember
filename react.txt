@@ -17,6 +17,8 @@ VS Code ES7+ React/Redux/React-Native/JS snippets:
 
 Emmet: javascript: javascriptreact
 
+Firefox/Chrome: React Developer Tools
+
 -----
 
 <></> = <React.Fragment></React.Fragement> can use instead of wrapping divs
