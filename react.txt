@@ -11,6 +11,7 @@ root.render(<FUNCTION/>)
 Extensions:
 
 VS Code ES7+ React/Redux/React-Native/JS snippets:
+  Optional - change extension settings to not automatically 'import react' on each component
   rafce - create arrow function component
   rfce - create function component
 
