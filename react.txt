@@ -16,3 +16,7 @@ VS Code ES7+ React/Redux/React-Native/JS snippets:
   rfce - create function component
 
 Emmet: javascript: javascriptreact
+
+-----
+
+<></> = <React.Fragment></React.Fragement> can use instead of wrapping divs
