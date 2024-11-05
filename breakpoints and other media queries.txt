@@ -44,8 +44,6 @@ const Button = styled.button`
 ------dark mode -------
 
 @media (prefers-color-scheme:dark){
-  body{
-    background:yellow;
-  }
+  new colour palette
 }
--
+
