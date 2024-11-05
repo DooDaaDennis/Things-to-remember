@@ -1,0 +1,5 @@
+Suggested breakpoints
+0-550px — Mobile
+550-1100px — Tablet
+1100-1500px — Laptop
+1500+px — Desktop
