@@ -27,3 +27,7 @@ const Wrapper = styled.div`
     padding: 32px;
   }
 `;
+
+------HOVER-------
+Varying hover styles with screen breakpoints is suboptimal - some mouse users will be on tiny screens. Use this instead:
+@media (hover: hover) and (pointer: fine) {}
