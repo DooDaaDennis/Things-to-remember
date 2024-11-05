@@ -31,3 +31,12 @@ const Wrapper = styled.div`
 ------HOVER-------
 Varying hover styles with screen breakpoints is suboptimal - some mouse users will be on tiny screens. Use this instead:
 @media (hover: hover) and (pointer: fine) {}
+
+------------------
+Min size for button on finger touchscreen
+
+const Button = styled.button`
+  @media (pointer: coarse) {
+    min-height: 44px;
+  }
+`;
