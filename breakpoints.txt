@@ -4,6 +4,8 @@ Suggested breakpoints
 1100-1500px — Laptop
 1500+px — Desktop
 
+-------bp constants--------
+
 //constants.js
 const bps = {
   phoneMax: 550,
@@ -15,6 +17,8 @@ const deviceMax = {
   'tabletDown': `(max-width: ${bps.tabletMax}px)`,
   'laptopDown': `(max-width: ${bps.laptopMax}px)`,
 }
+
+-------USE-------
 
 import { deviceMax } from '../../constants';
 const Wrapper = styled.div`
