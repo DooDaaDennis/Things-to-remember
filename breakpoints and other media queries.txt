@@ -40,3 +40,12 @@ const Button = styled.button`
     min-height: 44px;
   }
 `;
+
+------dark mode -------
+
+@media (prefers-color-scheme:dark){
+  body{
+    background:yellow;
+  }
+}
+-
