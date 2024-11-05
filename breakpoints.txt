@@ -13,9 +13,9 @@ const bps = {
   laptopMax: 1500,
 }
 const deviceMax = {
-  'phoneDown': `(max-width: ${bps.phoneMax}px)`,
-  'tabletDown': `(max-width: ${bps.tabletMax}px)`,
-  'laptopDown': `(max-width: ${bps.laptopMax}px)`,
+  'phoneDown': `(max-width: ${bps.phoneMax}px)`,  //or / 16}rem)
+  'tabletDown': `(max-width: ${bps.tabletMax}px)`, //or / 16}rem)
+  'laptopDown': `(max-width: ${bps.laptopMax}px)`, //or / 16}rem)
 }
 
 -------USE-------
