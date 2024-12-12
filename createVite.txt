@@ -1,0 +1,5 @@
+npm create vite@latest react-project -- --template react
+
+
+//delete react dependency
+$ npm install --save-exact react@rc react-dom@rc
